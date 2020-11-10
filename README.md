@@ -11,7 +11,6 @@ nvm install v12.10.0
 Solution:  run this command: source ~/.bashrc   
 Source: https://stackoverflow.com/questions/7609270/not-able-to-access-adb-in-os-x-through-terminal-command-not-found
 
-
 ## If you're wondering how he opened VS Code with "code ." command, here are the steps to enable it:
 
 - In Visual Studio Code options go to View ❯ Command Palette  
@@ -39,5 +38,29 @@ Main reference:
 [Why is the Emulator in Android Studio not running on older macOS versions any more?](https://superuser.com/questions/1444289/why-is-the-emulator-in-android-studio-not-running-on-older-macos-versions-any-mo)
 [在Mac OS X上使用HAXM加速Android Emulator](https://developer.aliyun.com/article/229657)
  
+ ## run project from githubn into local
+
+Main reference:  
+[Run RN Project from Github](https://github.com/GlennOu66304/React-Native/blob/master/README2.md)  
+
+## Running your app on Android devices
+
+Bug fixing: find the build number in your HuaWei phone:  
+[Enabling Developer Options on the Huawei Phone](Enabling Developer Options on the Huawei Phone)  
+Bug fixing: Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+[apk file:](https://github.com/GlennOu66304/React-Native/blob/master/README2.md)   
+Bug fixing: Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native  
+You need drag your React Native Project into the Android Studio to fix this issue.  
+[Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native](https://stackoverflow.com/questions/56891033/facing-issue-failed-to-install-the-app-make-sure-you-have-the-android-develop)  
+Bug Fixing: react-native :app:installDebug FAILED  
+You need to go to your HuaWei phone to disable the EMUI system update, then check if the USB debug mode is on.  
+[react-native :app:installDebug FAILED](https://stackoverflow.com/questions/37500205/react-native-appinstalldebug-failed)  
+
+
+Main reference:  
+[Running your app on Android devices](https://reactnative.dev/docs/0.62/running-on-device)  
 ## References:  
+[Food Ordering App UI in React Native](https://www.youtube.com/watch?v=GXe3EuVog9c&t=194s&ab_channel=PradipDebnath)  
+Source Code: [Food-Finder-React-Native-App](https://github.com/itzpradip/Food-Finder-React-Native-App)  
 [React Native Tutorial for Beginners - Build a React Native App [2020]](https://www.youtube.com/watch?v=0-S5a0eXPoc&t=379s&ab_channel=ProgrammingwithMosh)  
+[React Native 0.62 documentation](https://reactnative.dev/docs/0.62/getting-started)   
