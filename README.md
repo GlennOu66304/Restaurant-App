@@ -2,7 +2,7 @@
 ## Enviroment building:  
 node v12.10.0
 ```
-source ~/.bash_profile
+source ~/.bash_profile   
 nvm install v12.10.0
 ```
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)  
