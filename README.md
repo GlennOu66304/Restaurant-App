@@ -36,16 +36,16 @@ Main reference:
 Main reference:  
 [Run RN Project from Github](https://github.com/GlennOu66304/React-Native/blob/master/README2.md)  
 
-## Running your app on Android devices
+# Running your app on Android devices
 
-Bug fixing: find the build number in your HuaWei phone:  
+## Bug fixing: find the build number in your HuaWei phone:  
 [Enabling Developer Options on the Huawei Phone](https://developer.huawei.com/consumer/en/doc/quickapp-open-developer-option)    
-Bug fixing: Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper   
+## Bug fixing: Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper   
 [apk file:](https://github.com/GlennOu66304/React-Native/blob/master/README2.md)   
-Bug fixing: Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native    
-You need drag your React Native Project into the Android Studio to fix this issue.  
-[Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native](https://stackoverflow.com/questions/56891033/facing-issue-failed-to-install-the-app-make-sure-you-have-the-android-develop)    
-Bug Fixing: react-native :app:installDebug FAILED  
+## Bug fixing: Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native    
+## You need drag your React Native Project into the Android Studio to fix this issue.  
+## [Facing issue “ Failed to install the app. Make sure you have the Android development environment ” in react native](https://stackoverflow.com/questions/56891033/facing-issue-failed-to-install-the-app-make-sure-you-have-the-android-develop)    
+## Bug Fixing: react-native :app:installDebug FAILED  
 You need to go to your HuaWei phone to disable the EMUI system update, then check if the USB debug mode is on.  
 [react-native :app:installDebug FAILED](https://stackoverflow.com/questions/37500205/react-native-appinstalldebug-failed)  
 
