@@ -7,6 +7,16 @@ nvm install v12.10.0
 ```
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)  
 # Androide Studio Setting: 
+## Bug fixing :Problem: adp: command not found
+Solution:  run this command: source ~/.bashrc   
+Source: https://stackoverflow.com/questions/7609270/not-able-to-access-adb-in-os-x-through-terminal-command-not-found
+
+
+## If you're wondering how he opened VS Code with "code ." command, here are the steps to enable it:
+
+- In Visual Studio Code options go to View ❯ Command Palette  
+- Type shell command to find Shell Command: Install 'code' command in PATH command  
+- Install it and you're done  
 
 Main reference:  
 [0:18:02 Running on an Android emulator](https://www.youtube.com/watch?v=0-S5a0eXPoc&t=379s&ab_channel=ProgrammingwithMosh)
