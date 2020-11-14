@@ -41,8 +41,8 @@ export PATH=/Users/zt/Library/Android/sdk/platform-tools:$PATH
 ## Run the code in the simulator, when you shut down the editor.
 ```
 source ~/.bash_profile  
-nvm use v11.10.0 
-nvm use v11.10.0 
+nvm use v11.10.0
+npm run ios 
 ```
 ## image resource download
 You could either download it from the github by using the Gitzip or utilize the Figma to get the image resources
@@ -55,6 +55,7 @@ You could either download it from the github by using the Gitzip or utilize the 
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
 [Food App UI Part 2 - Figma to React Native](https://www.youtube.com/watch?v=GPu1ax1Fga0&ab_channel=MadeWithMatt)  
+[Food App UI Part 3 - Figma to React Native](https://www.youtube.com/watch?v=Z7UjnkbbIqk)  
 Source code [FoodAppUI](https://github.com/mattfrances/FoodAppUI)  
 export ANDROID_SDK=/Users/zt/Library/Android/sdk
 
