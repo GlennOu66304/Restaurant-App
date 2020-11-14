@@ -34,7 +34,7 @@ export PATH=/Users/zt/Library/Android/sdk/platform-tools:$PATH
 [Why is “npm install” really slow?](https://stackoverflow.com/questions/41524903/why-is-npm-install-really-slow)  
 [How do I edit $PATH (.bash_profile) on OSX?](https://stackoverflow.com/questions/30461201/how-do-i-edit-path-bash-profile-on-osx)  
 
-## Run the code in the simulator  
+## Run the code in the simulator, when you shut down the editor.
 ```
 source ~/.bash_profile  
 nvm use v11.10.0 
@@ -46,7 +46,7 @@ nvm use v11.10.0
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
 [Food App UI Part 2 - Figma to React Native](https://www.youtube.com/watch?v=GPu1ax1Fga0&ab_channel=MadeWithMatt)  
-
+Source code [FoodAppUI](https://github.com/mattfrances/FoodAppUI)  
 export ANDROID_SDK=/Users/zt/Library/Android/sdk
 
 export PATH=/Users/zt/Library/Android/sdk/platform-tools:$PATH
