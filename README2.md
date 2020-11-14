@@ -40,6 +40,8 @@ source ~/.bash_profile
 nvm use v11.10.0 
 nvm use v11.10.0 
 ```
+## image resource download
+You could either download it from the github by using the Gitzip or utilize the Figma to get the image resources
 
 
 ## Reference:  
