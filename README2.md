@@ -1,4 +1,8 @@
 # Food App UI Part  - Figma to React Native
+## How to put the local prohject into git hub:
+1. As for the code, you need to drag the file into the empty project which you build from Github; 
+2. Drag the Readme file too.  
+
 ## Bug fixing: React native ERROR Packager can't listen on port 8081
 ```
 On a mac, run the following command to find id of the process which is using port 8081
