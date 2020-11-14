@@ -43,6 +43,9 @@ nvm use v11.10.0
 ## image resource download
 You could either download it from the github by using the Gitzip or utilize the Figma to get the image resources
 
+## shift in the two screen page of app, you need to utilize the React Native Navigation:
+[React Navigation](https://reactnavigation.org/docs/getting-started)   
+
 
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
