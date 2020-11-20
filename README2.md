@@ -103,6 +103,16 @@ const styles = StyleSheet.create({
 
 [Style](https://reactnative.dev/docs/style)   
 
+3.As for the bugs in the React Native console, you need to make sure that you type the cortrect CSS name to change it.  
+
+## Bugs, Could not see the search text in the search bar
+
+You need delte the flex:1 in the style section, or try the solution to solve this issue.
+[React native text going off my screen, refusing to wrap. What to do?](https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do)  
+[[Text] Text doesn't wrap #1438](https://github.com/facebook/react-native/issues/1438)  
+[Flex box in react Native is not working buttons wont show up](https://stackoverflow.com/questions/58868460/flex-box-in-react-native-is-not-working-buttons-wont-show-up)  
+
+
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
