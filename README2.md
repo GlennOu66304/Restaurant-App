@@ -127,7 +127,51 @@ Do not add the extra s into the style in the View while you define the Viwe:
 ```
  <Text style={styles.categoriesTitle}>Categories</Text>
 ```
+## ReactNative FlatList understand:  
+Falst is kind of tool that allow you reden the data into a list in the app layout.  
+1.To use this tool, you need to load the data from the external file or just put the data into the current file:  
+```
+const DATA = [
+  {
+    id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
+    title: 'First Item',
+  },
+]
+```
+2. Then according to the syntext rules to add the required content:  
+```
+<FlatList
+        data={DATA}
+        renderItem={renderItem}
+        keyExtractor={item => item.id}
+      />
+```
 
+To allow render the data's layout, you could set the prop horizontal of the FlatList to achive this
+```
+horizontal={true}
+```
+Main references:  
+[FlatList](https://reactnative.dev/docs/flatlist)  
+
+## Const in the React Native:  
+It just build another function allow you to intreract with the code. 
+
+1.To use this function,you need to import the react first and related other Core component
+```
+import React from 'react';
+import { Text } from 'react-native';
+```
+2. Then build a componet as below:  
+```
+const Cat = () => {
+  return <Text>Hello, I am your cat!</Text>;
+};
+
+export default Cat;
+```
+Main references:  
+[Your first component](https://reactnative.dev/docs/intro-react)  
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
