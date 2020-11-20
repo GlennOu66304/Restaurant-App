@@ -54,6 +54,31 @@ You could either download it from the github by using the Gitzip or utilize the 
 
 1.You need to type the key word + React Native doc into the Google search bar to pick the content to quick refernece, and put the unknow part into the github, and the link as maiin references.
 
+
+## View Syntext  
+1.View is baciclly like the div in the html, some sort of the Html lay out potion text:
+
+2. You need to import the view first, then 
+```
+import { View, Text } from "react-native";
+```
+
+3. You have two ways to utilize the Viwe
+First you could utlize the <View> & </View> to bracket the code block;   
+```
+<View
+        style={{
+          flexDirection: "row",
+          height: 100,
+          padding: 20
+        }}
+      >
+ </View>
+```
+Second you could simply add slash "/" at the end of the <View>;  
+```
+<View style={{ backgroundColor: "blue", flex: 0.3 }} />
+```
 Such as"View" View React Native doc
 Main references:  
 [View](https://reactnative.dev/docs/view)  
