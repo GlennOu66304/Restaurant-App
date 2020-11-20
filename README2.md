@@ -101,7 +101,15 @@ const styles = StyleSheet.create({
   },
 ```
 
+
 [Style](https://reactnative.dev/docs/style)   
+
+## Second weay to customize your lay out, similiar function like"Sytle"
+You don't need import sylesheet from the react native, just add the value into the View and the text:  
+```
+<View style={{flex: 1, flexDirection: 'row'}}>
+```
+[Layout with Flexbox](https://reactnative.dev/docs/flexbox) 
 
 3.As for the bugs in the React Native console, you need to make sure that you type the cortrect CSS name to change it.  
 
@@ -111,7 +119,7 @@ You need delte the flex:1 in the style section, or try the solution to solve thi
 [React native text going off my screen, refusing to wrap. What to do?](https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do)  
 [[Text] Text doesn't wrap #1438](https://github.com/facebook/react-native/issues/1438)  
 [Flex box in react Native is not working buttons wont show up](https://stackoverflow.com/questions/58868460/flex-box-in-react-native-is-not-working-buttons-wont-show-up)  
-
+[Layout with Flexbox](https://reactnative.dev/docs/flexbox)   
 
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
