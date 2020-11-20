@@ -170,8 +170,41 @@ const Cat = () => {
 
 export default Cat;
 ```
+## Bugs Error: Text strings must be rendered within a <Text> component.
+
+You need to put the following code into the <FlatList /> inside.
+```
+ data={DATA}
+        renderItem={renderItem}
+        keyExtractor={item => item.id}
+```
 Main references:  
 [Your first component](https://reactnative.dev/docs/intro-react)  
+## ReactNative image understand 
+
+Image in the React Native allow you put the image into it.  
+To utilize the image, you need to import it from the reactNative first, then
+```
+import { View, Image, StyleSheet } from 'react-native';
+```
+You need to add the source to load the external image source:  
+```
+<Image
+        style={styles.tinyLogo}
+        source={require('@expo/snack-static/react-native-logo.png')}
+      />
+```
+Main References:  
+[Image](https://reactnative.dev/docs/image)  
+
+## Load the data from external file:  
+Item + dot + specfific content in the bracket from the external file to load it:  
+```
+{item.image}
+{item.title}
+```
+[Fetching Data in React Native](https://medium.com/@alialhaddad/fetching-data-in-react-native-d92fb6876973)  
+
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
