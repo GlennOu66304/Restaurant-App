@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 
 
 [Style](https://reactnative.dev/docs/style)   
-
+[Styling in React Native: Step By Step](https://medium.com/better-programming/styling-in-react-native-step-by-step-540f57411566)
 ## Second weay to customize your lay out, similiar function like"Sytle"
 You don't need import sylesheet from the react native, just add the value into the View and the text:  
 ```
@@ -112,6 +112,25 @@ You don't need import sylesheet from the react native, just add the value into t
 [Layout with Flexbox](https://reactnative.dev/docs/flexbox) 
 
 3.As for the bugs in the React Native console, you need to make sure that you type the cortrect CSS name to change it.  
+
+# Change the wrpper's color
+
+You need add new style rules into the wrapper, the rules should be like a boolean secelction.  
+1.To add more style rules, you simply create an array  
+```
+<View style={[
+            styles.categoryItemWrapper,
+            ]} >
+            </view>
+```
+2. Change the wrpper's color
+```
+styles.categoryItemWrapper,
+            {
+                backgroundColor:item.selected? colors.primary : colors.white,
+            }
+            ]} >
+```
 
 ## Bugs, Could not see the search text in the search bar
 
@@ -204,6 +223,16 @@ Item + dot + specfific content in the bracket from the external file to load it:
 {item.title}
 ```
 [Fetching Data in React Native](https://medium.com/@alialhaddad/fetching-data-in-react-native-d92fb6876973)  
+
+## Bug: if you could not see the item wrapper change, you need to go to the color.js file to add the whiter and black color value:
+```
+white: '#FFF',
+black: '#000',
+```
+## they way to allow the list move in the wrapper:  
+```
+marginLeft: item.id == 1 ? 20:0,
+```
 
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
