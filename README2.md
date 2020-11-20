@@ -121,6 +121,13 @@ You need delte the flex:1 in the style section, or try the solution to solve thi
 [Flex box in react Native is not working buttons wont show up](https://stackoverflow.com/questions/58868460/flex-box-in-react-native-is-not-working-buttons-wont-show-up)  
 [Layout with Flexbox](https://reactnative.dev/docs/flexbox)   
 
+## Bugs: Could not see Font Family changes in the app:
+
+Do not add the extra s into the style in the View while you define the Viwe:
+```
+ <Text style={styles.categoriesTitle}>Categories</Text>
+```
+
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
