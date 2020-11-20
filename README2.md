@@ -50,6 +50,33 @@ You could either download it from the github by using the Gitzip or utilize the 
 ## shift in the two screen page of app, you need to utilize the React Native Navigation:
 [React Navigation](https://reactnavigation.org/docs/getting-started)   
 
+## React Native syntext quick references:  
+
+1.You need to type the key word + React Native doc into the Google search bar to pick the content to quick refernece, and put the unknow part into the github, and the link as maiin references.
+
+Such as"View" View React Native doc
+Main references:  
+[View](https://reactnative.dev/docs/view)  
+
+2. To type the code into the editor, you need to wait for the one function finish, then start to add the code into your editor and try to understand the code.  
+
+## Style React Native understand:
+1. In order to use the style to customized your design, you need use style(CSS) to acieventit. first to import it from the react native, then add the style content into the view or text to define a name.  
+```
+import { StyleSheet, Text, View } from 'react-native';
+<View style={styles.container}>
+        <Text style={styles.red}>just red</Text>
+```
+
+2. in the code specific details, first you need to define and name in the view or text, then go to a certain section to add the style content to add the style value to change it.
+```
+const styles = StyleSheet.create({
+  container: {
+    marginTop: 50,
+  },
+```
+
+[Style](https://reactnative.dev/docs/style)   
 
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
