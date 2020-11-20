@@ -233,7 +233,27 @@ black: '#000',
 ```
 marginLeft: item.id == 1 ? 20:0,
 ```
+## Utilize the Map to render the popularData
+,map() is like for loop function in the Pure Javascrip, it will allow you loop the data do repeattation work.  
 
+To use .map() you need to have the data
+```
+const numbers = [1, 2, 3, 4, 5];
+```
+then you need to defie a new const 
+```
+const doubled = 
+```
+Connect the orginal 
+```
+const doubled = numbers.map((number) 
+```
+assign the function which you want to interact with the data  
+```
+const doubled = numbers.map((number) => number * 2);
+```
+
+[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)   
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
