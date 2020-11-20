@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
 
 ## Bugs, Could not see the search text in the search bar
 
-You need delte the flex:1 in the style section, or try the solution to solve this issue.
+You need delte the flex:1 in the style section, or try the solution to solve this issue.   
 [React native text going off my screen, refusing to wrap. What to do?](https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do)  
 [[Text] Text doesn't wrap #1438](https://github.com/facebook/react-native/issues/1438)  
 [Flex box in react Native is not working buttons wont show up](https://stackoverflow.com/questions/58868460/flex-box-in-react-native-is-not-working-buttons-wont-show-up)  
