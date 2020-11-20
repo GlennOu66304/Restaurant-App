@@ -57,6 +57,7 @@ You could either download it from the github by using the Gitzip or utilize the 
 [Food App UI Part 2 - Figma to React Native](https://www.youtube.com/watch?v=GPu1ax1Fga0&ab_channel=MadeWithMatt)  
 [Food App UI Part 3 - Figma to React Native](https://www.youtube.com/watch?v=Z7UjnkbbIqk)  
 Source code [FoodAppUI](https://github.com/mattfrances/FoodAppUI)  
+Link to Figma file[Figma file ](https://www.figma.com/file/gfIboy4J44lvD9CoDr62rH/Food-App?node-id=0%3A1)   
 export ANDROID_SDK=/Users/zt/Library/Android/sdk
 
 export PATH=/Users/zt/Library/Android/sdk/platform-tools:$PATH
