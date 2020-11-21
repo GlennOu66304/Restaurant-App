@@ -252,8 +252,121 @@ assign the function which you want to interact with the data
 ```
 const doubled = numbers.map((number) => number * 2);
 ```
+## if you could not see the data render in the app, you need maksure that popularData is same with the import sentence:
+```
+import popularData from '../assets/data/popularData';
+```
+
+## utilize the Material icon in the React Native:  
+1. Syntext format
+```
+<MaterialCommunityIcons
+                name="crown"
+                size={12}
+                color={colors.primary}
+                />
+```
+2. Add the code below to skip the bug;
+```
+MaterialCommunityIcons.loadFont();
+```
+3.Press R in the terminal to reload the project:  
+
+Main refernece:  
+[Icon Component](https://github.com/oblador/react-native-vector-icons#icon-component)  
+[Icon Search](https://oblador.github.io/react-native-vector-icons/)   
 
 [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)   
+
+## bug fixing Warning: Each child in a list should have a unique "key" prop.
+You juss neee to add the single quto to the id in the categoriesData and popularData file, then add the key={item.id} into the map section:  
+```
+{popularData.map((item) => ( 
+            <View 
+            key={item.id}
+            style={[styles.popularCardwrapper,
+                {
+                    marginTop: item.id == 1 ? 10 :20,
+                }
+            ]}>
+             <View>
+```
+
+## React Native navgation usage:  
+
+### 1.After you finish the installtion, you need wrap wholp app in the App.js file first
+1.import the sub page js file into the app.js file:  
+```
+import Details from './components/Details';
+```
+2.Add the second screen Deatail page into the tack.Navigator and NavgationContainer, just copy the home page template, then change the paramter.  
+Template:    
+```
+ <Stack.Screen name="Home" component={Home} 
+        options={{
+          headerShown:false,
+        }
+        }/>
+```
+Final version:  
+```
+<NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home} 
+        options={{
+          headerShown:false,
+        }
+        }/>
+
+<Stack.Screen 
+name="Details" 
+component={Details} 
+        options={{
+          headerShown:false,
+        }
+        }/>
+
+      </Stack.Navigator>
+    </NavigationContainer>
+```
+
+### 2.to achive the click animation effect, you need to use the <TouchableOpacity> to bracket the area. 
+### 3.Then you need to link the Home screen and profile screen in the both js file
+1.connect the Home screen with the navation:  
+```
+Home = ({navigation}) => {}
+```
+2.Press the key area, then it will dispay the subpage's content;
+```
+<TouchableOpacity
+            key={item.id}
+            onPress={
+                ()=>
+                navgiation.navigate('Details')
+            }
+            >
+```
+### 4.Bugs: TypeError: undefined is not an object (evaluating 'navgiation.navigate')
+You need to head to the Home = ({navigation}) => {} to check the spelling of the navigation, and in the  onPress={ too.   
+
+## route in the React Native:
+this one basically allow you pull the data from the popular data, then those data could be able to reden in the subpage
+
+## From the subpage go back to the home page:
+Add the navigation: 
+```
+export default Details = ({route, navigation}) 
+```
+Add the on Press function:
+```
+<TouchableOpacity onPress={()=>navigation.navigate('Home')
+                 }>
+```
+
+Main refenece:  
+[Navigating Between Screens](https://reactnative.dev/docs/navigation)  
+[React Navigation](https://reactnavigation.org/docs/hello-react-navigation)   
+
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
