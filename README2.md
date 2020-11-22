@@ -367,6 +367,9 @@ Main refenece:
 [Navigating Between Screens](https://reactnative.dev/docs/navigation)  
 [React Navigation](https://reactnavigation.org/docs/hello-react-navigation)   
 
+## Multiple select in the Visula Studio
+Alt + Mouse right click the item, then copy.  
+[Multiple selections (multi-cursor)](https://code.visualstudio.com/docs/editor/codebasics)   
 ## Reference:  
 [Food App Design - Figma Tutorial](https://www.youtube.com/watch?v=jA-R8bJRZPg&ab_channel=MadeWithMatt)  
 [Food App UI Part 1 - Figma to React Native](https://www.youtube.com/watch?v=7_nsd_iNDtY&ab_channel=MadeWithMatt)  
